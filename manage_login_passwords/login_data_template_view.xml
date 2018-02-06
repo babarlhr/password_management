@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<odoo>
+    <data>
+	<!-- Adds all assets in Odoo -->
+        <template id="assets_backend" name="manage_login_passwords assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+		<!--These links will be called when loading your Odoo -->
+                <script type="text/javascript" src="/manage_login_passwords/static/src/js/my.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo>
